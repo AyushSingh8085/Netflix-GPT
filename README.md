@@ -5,8 +5,11 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - Create React App
 - Configured TailwindCSS
 - Header
+- Routing
 - Login Form
 - Sign Up Form
+- Form validation
+- useRef hook
 
 # Features
 
