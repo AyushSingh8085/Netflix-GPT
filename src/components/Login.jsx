@@ -7,9 +7,9 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { TRAILOR_PIC } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -19,7 +19,6 @@ const Login = () => {
   const email = useRef(null);
   const password = useRef(null);
 
-  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const toggleSignIn = () => {
@@ -61,7 +60,6 @@ const Login = () => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
 
               dispatch(addUser({ uid, email, displayName, photoURL }));
-              navigate("/browse");
             })
             .catch((error) => {
               setErrorMessage(error.message);
@@ -86,7 +84,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -101,7 +98,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/f6e7f6df-6973-46ef-b98f-12560d2b3c69/web_tall_panel/IN-en-20250317-TRIFECTA-perspective_d3bd14de-3c51-4227-9244-f14c89469189_large.jpg"
+          src={TRAILOR_PIC}
           alt="background"
         />
       </div>

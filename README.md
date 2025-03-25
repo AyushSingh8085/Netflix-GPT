@@ -18,6 +18,11 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - Implemented Sign out
 - Update Profile
 - Fetch Movies from TMDB 
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect/browse to login Page and vice-versa
+- Unsubscribed to the onAuthStateChange callback
+- Added hardcoded values to the constants file
+
 
 # Features
 
