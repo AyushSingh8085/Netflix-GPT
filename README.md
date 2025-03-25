@@ -10,6 +10,14 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - Sign Up Form
 - Form validation
 - useRef hook
+- Firebase setup
+- Deploying our app to production
+- Create Signup User Account
+- Implement Sign In User Api
+- Created redux store with userSlice
+- Implemented Sign out
+- Update Profile
+- Fetch Movies from TMDB 
 
 # Features
 
@@ -30,3 +38,18 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - NetflixGPT
   - Search Bar
   - Movie Suggestions
+
+# Firebase commands
+
+- npm i firebase
+- npm i -g firebase-tools (Firebase CLI)
+- firebase login
+- firebase init
+      - Hoisting: Configure files for Firebase Hoisting  -> space and enter (to select)
+      - use existing project
+      - netflixgpt (your project name)
+      - public directory name as BUILD
+      - configure single-page app as NO
+      - deploys with github as NO
+      - npm run build
+      - firebase deploy
