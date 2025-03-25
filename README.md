@@ -22,6 +22,16 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - BugFix: if the user is not logged in Redirect/browse to login Page and vice-versa
 - Unsubscribed to the onAuthStateChange callback
 - Added hardcoded values to the constants file
+- Register TMDB API & create an app & get access token
+- Get data from TMDB now playing movies list API
+- Custom Hook for now playing movies
+- Update store with movie data 
+- planning for main container and secondary container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the youtube video and made it autoplay on mute
+- Tailwind classes to make container look good
+
 
 
 # Features
