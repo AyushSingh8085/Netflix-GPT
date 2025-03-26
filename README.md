@@ -37,9 +37,9 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - TMDB Img CDN URL
 - Made the browse page looks good with tailwind css
 - usePopularMovie, useTopRatedMovie and useUpcomingMovie Custom Hook
-- 
-
-
+- GPT Search feature
+- GPT Search Page and Search Bar
+- (FEATURE) Multi-language in our App 
 
 # Features
 
