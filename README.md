@@ -31,6 +31,13 @@ Netflix-GPT is a movie streaming app that combines the user experience of Netfli
 - Update store with trailer video data
 - Embedded the youtube video and made it autoplay on mute
 - Tailwind classes to make container look good
+- Build secondary component
+- Build movie list
+- Build movie card
+- TMDB Img CDN URL
+- Made the browse page looks good with tailwind css
+- usePopularMovie, useTopRatedMovie and useUpcomingMovie Custom Hook
+- 
 
 
 
